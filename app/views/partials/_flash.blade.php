@@ -1,4 +1,4 @@
-@if (Session::has('flash_notification'))
+@if (Session::has('flash_notification.message'))
     @if (Session::has('flash_notification.overlay'))
         @include('partials/_modal', ['modalClass' => 'flash-modal', 'title' => 'Notice', 'body' => Session::get('flash_notification.message')])
     @else
