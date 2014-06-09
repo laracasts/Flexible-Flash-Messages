@@ -15,9 +15,9 @@
 			"app/database/seeds",
 			"app/tests/TestCase.php"
 		],
-        "psr-4": {
-            "Acme\\": "app/Acme"
-        }
+	        "psr-4": {
+	            "Acme\\": "app/Acme"
+	        }
 	},
 	"scripts": {
 		"post-install-cmd": [
